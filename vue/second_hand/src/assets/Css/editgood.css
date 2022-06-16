@@ -1,0 +1,54 @@
+.editgood{
+    width:100%;
+    height:auto;
+}
+.editgood-name{
+    display:flex;
+    flex-direction:row;
+    width:96%;
+    margin-left:2%;
+    height:60px;
+    background-color:whitesmoke;
+    border-radius:10px;
+}
+.editgood-name>p{
+    margin:0;
+    padding-top:18px;
+    font-size:16px;
+    padding-left: 10px;
+    font-family: '华文楷体';
+}
+.editgood-information{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    width:96%;
+    margin-left:2%;
+    height:60px;
+    background-color:whitesmoke;
+    border-radius:10px;
+}
+.editgood-information>p{
+    margin:0;
+    padding-top:18px;
+    font-size:16px;
+    padding-left: 10px;
+    font-family: '华文楷体';
+}
+.editgood-price{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    width:96%;
+    margin-left:2%;
+    height:60px;
+    background-color:whitesmoke;
+    border-radius:10px;
+}
+.editgood-price>p{
+    margin:0;
+    padding-top:18px;
+    font-size:16px;
+    padding-left: 10px;
+    font-family: '华文楷体';
+}

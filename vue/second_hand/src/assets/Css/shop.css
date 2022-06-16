@@ -1,0 +1,134 @@
+.shop{
+    background-color: whitesmoke;
+    width:100%;
+    height:auto;
+}
+.car-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin:10px 10px 10px 10px;
+}
+.car-search{
+    border-radius:20px;
+    padding:1px 0 0 0;
+    width:90%;
+    background-color:whitesmoke;
+}
+.head-control{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:15px;
+    margin-left: 3%;
+    width:94%;
+}
+.delete-one{
+    width:100px;
+}
+
+
+.car-item{
+    overflow:auto;
+    width:auto;
+    height:450px;
+    margin-bottom:60px;
+}
+.car-data{
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.data-box{
+    /*margin:10px 0 0 10px;*/
+    /*margin-left:15px;*/
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    height:auto;
+}
+.pic_name>img{
+    margin:5px;
+    border-radius:10px;
+    width:120px;
+    height:100px;
+}
+.pic_name{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:250px;
+
+}
+.name{
+    margin-left:15px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.name>div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size:16px;
+}
+.data-box-price{
+    margin-right:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.data-box-price>div{
+    text-align: center;
+    font-size:14px;
+    color: #598db9;
+}
+
+
+.car-control{
+    margin-left:5%;
+    width:90%;
+    height:60px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    position:absolute;
+    bottom:50px;
+}
+
+.car-buy{
+    margin-right:10px;
+    width:100px;
+}
+.car-selectall{
+    width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

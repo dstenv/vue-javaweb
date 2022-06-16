@@ -1,0 +1,77 @@
+.senddata{
+    background-color:whitesmoke;
+    height:auto;
+}
+.search{
+    margin:5px;
+}
+
+.gooddata{
+    overflow-y: auto;
+    position:relative;
+    width:auto;
+    height:500px;
+    /*margin-bottom:30px;*/
+}
+.good{
+    width:auto;
+    height:auto;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.box{
+    /*margin:10px 0 0 10px;*/
+
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    height:auto;
+}
+.Infobox>img{
+    margin:5px;
+    border-radius:10px;
+    width:120px;
+    height:100px;
+}
+.Infobox{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:250px;
+}
+.Infobox-name{
+    margin-left:15px;
+     display: flex;
+     flex-direction:column;
+     justify-content:center;
+ }
+.Infobox-price{
+    margin-right:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.product-name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size:16px;
+}
+.product-price{
+    text-align: center;
+    font-size:14px;
+    color: #598db9;
+}
+.send-deletegood{
+    width:100px;
+    /*position:absolute;*/
+    /*bottom:58px;*/
+    /*right:20px;*/
+    position: fixed;
+    top:565px;
+    right:20px;
+}

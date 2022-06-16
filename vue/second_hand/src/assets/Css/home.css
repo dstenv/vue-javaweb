@@ -1,0 +1,124 @@
+.home{
+    height:auto;
+    background-color:whitesmoke;
+}
+.home-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height:50px;
+    margin:0 10px 10px 10px;
+}
+.search{
+    padding:1px 0 0 0;
+    background-color:whitesmoke;
+}
+.t1{
+    margin-top:18px;
+    width:auto;
+    margin-right:8px;
+    font-family: '华文行楷';
+    font-size:18px;
+}
+.home-content{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+
+.banner-box{
+    margin: 15px 15px 0;
+    width:auto;
+    height:auto;
+    overflow: hidden;
+    border-radius:10px 10px 20px 20px;
+}
+.banner-item{
+    width:auto;
+    height:auto;
+}
+.banner-item>img{
+    width:350px;
+    height:250px;
+}
+
+
+
+.home-TJdata{
+    display: flex;
+    flex-direction:column;
+    padding: 0 15px;
+    justify-content:center;
+    width:auto;
+    height:auto;
+    margin-bottom:70px;
+}
+.product-title{
+    display: flex;
+    justify-content:space-between;
+    /*margin-left: 30%;*/
+    height: 45px;
+    width:90%;
+    margin-left:5%;
+    /*background-color: #2b61c2;*/
+}
+.product-title>p{
+    font-family: '华文琥珀';
+    letter-spacing:5px;
+    align-items: center;
+}
+
+.product{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.product-item{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin: 5px 10px 5px 25px;
+    width:130px;
+    height:150px;
+    background-color: white;
+    border-radius:10px;
+}
+.imgbox{
+    /*margin:10px 0 0 10px;*/
+    display: flex;
+    justify-content:center;
+    width:auto;
+    height:auto;
+}
+.imgbox>img{
+    border-radius:10px;
+    width:100px;
+    height:80px;
+}
+.productInfobox{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.product-dataname{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align:center;
+    font-size:16px;
+}
+.product-price{
+    text-align: center;
+    font-size:14px;
+    color: #598db9;
+}
+
+
+
+
+

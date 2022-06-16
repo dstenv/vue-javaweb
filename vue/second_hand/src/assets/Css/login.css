@@ -1,0 +1,20 @@
+.login {
+    height: auto;
+}
+.login_logo{
+    height:100px;
+    width:250px;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:relative;
+    width:100%;
+}
+.title{
+    margin-top:5px;
+    font-family: '隶书';
+    text-align:center;
+    font-size:40px;
+}

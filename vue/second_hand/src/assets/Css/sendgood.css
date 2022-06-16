@@ -1,0 +1,116 @@
+.gooddetail{
+    background-color: white;
+    width:auto;
+    height:auto;
+}
+
+.detaildata{
+    display:flex;
+    flex-direction:column;
+    width:auto;
+    height:auto;
+
+}
+.detailbanner-box{
+
+}
+.swipe-item{
+    display:flex;
+    width:auto;
+    height:auto;
+    border-radius:20px;
+}
+.swipe-item>img{
+    width:100%;
+    height: 300px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.detail{
+    display:flex;
+    flex-direction:column;
+    background-color: #d4d4d4;
+    /*filter: alpha(opacity=80);*/
+    /*opacity: 0.8;*/
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    margin-left:4%;
+    margin-bottom:60px;
+    /*margin-top: 5px;*/
+    width:92%;
+    height:260px;
+}
+
+.detail-head{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.detail-name{
+    margin: 10px 0 0 15px;
+    font-size:20px;
+    font-family: '华文楷体';
+}
+.detail-price{
+    margin: 10px 20px 0 0px;
+    font-size:20px;
+    color: #5a8eec;
+    font-family: '华文楷体';
+}
+
+.hot{
+    margin: 10px 20px 0 15px;
+    align-items:center;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.detail-hot{
+    font-size:20px;
+    color:orangered;
+    font-family: '华文楷体';
+}
+
+.Infomation{
+    margin: 5px 0 0 15px;
+    width:95%;
+    display: flex;
+    flex-direction:row;
+    height:90px;
+}
+.detail-Infomation{
+    width:auto;
+}
+
+.user{
+    margin: 0 20px 0 15px;
+    align-items:center;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+
+.control{
+    background-color: white;
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    position:absolute;
+    bottom:0;
+}
+.car-button{
+    position:relative;
+    right:-15px;
+    bottom:-8px;
+    width:110px;
+}
+.buy-button{
+    position:relative;
+    right:5px;
+    bottom:-8px;
+    width:100px;
+}
